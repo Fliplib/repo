@@ -1,0 +1,164 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.goback {
+    float: left; 
+  width: 21%; 
+  height: 80px; 
+  line-height: 80px; 
+  color: white; 
+  font-family: arial, 
+    sans serif;
+  }
+
+.bite22 {
+  background: #343434; 
+  color: #44e044; 
+  font-size: 45px; 
+  font-weight: 600; 
+  font-family: arial, sans serif; 
+  text-align: center; 
+  padding-top: 50px; 
+  padding-bottom: 30px; 
+  width: 79%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  .goback {
+      float: left; 
+  width: 30%; 
+  height: 80px; 
+  line-height: 80px; 
+  color: white; 
+  font-family: arial, sans serif;
+  }
+  
+  .bite22 {
+  background: #343434; 
+  color: #44e044; 
+  font-size: 45px; 
+  font-weight: 600; 
+  font-family: arial, sans serif; 
+  text-align: center; 
+  padding-top: 50px; 
+  padding-bottom: 30px; 
+  width: 70%;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  .goback {
+      float: left; 
+  width: 20%; 
+  height: 80px; 
+  line-height: 80px; 
+  color: white; 
+  font-family: arial, 
+    sans serif;
+  }
+  
+  .bite22 {
+  background: #343434; 
+  color: #44e044; 
+  font-size: 45px; 
+  font-weight: 600; 
+  font-family: arial, sans serif; 
+  text-align: center; 
+  padding-top: 50px; 
+  padding-bottom: 30px; 
+  width: 80%;
+}
+
+}
